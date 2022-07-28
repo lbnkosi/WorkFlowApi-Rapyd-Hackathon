@@ -1,0 +1,32 @@
+package com.rapyd.toolkit.rapyd_api.models.refunds.create_beneficiary.response
+
+data class Data(
+    var status: String = "",
+    var cancel_url: String = "",
+    var complete_url: String = "",
+    var language: Any = Any(),
+    var merchant_color: Any = Any(),
+    var merchant_logo: Any = Any(),
+    var merchant_website: String = "",
+    var merchant_customer_support: MerchantCustomerSupport = MerchantCustomerSupport(),
+    var merchant_alias: String = "",
+    var page_expiration: Int = 0,
+    var redirect_url: String = "",
+    var id: String = "",
+    var category: String = "",
+    var sender_entity_type: String = "",
+    var sender_country: String = "",
+    var merchant_reference_id: String = "",
+    var beneficiary_entity_type: String = "",
+    var beneficiary_country: String = "",
+    var beneficiary_currency: String = "",
+    var sender_currency: String = "",
+    var beneficiary_id: Any = Any(),
+    var payout_method_type: Any = Any(),
+    var beneficiary_validated: Boolean = false,
+    var timestamp: Int = 0,
+    var beneficiary_optional_fields: BeneficiaryOptionalFields = BeneficiaryOptionalFields(),
+    var payout_method_types_include: Any = Any(),
+    var payout_method_types_exclude: Any = Any(),
+    var expiration: Int = 0
+)

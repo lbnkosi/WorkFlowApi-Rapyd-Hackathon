@@ -1,0 +1,3 @@
+package com.rapyd.toolkit.rapyd_api.models.refunds.create_beneficiary.response
+
+class MerchantCustomerSupport
